@@ -127,8 +127,13 @@
                     </div>
                     <div class="form-group">
                         <label for="mata_kuliah">Mata Kuliah</label>
-                        <input type="text" name="mata_kuliah" id="mata_kuliah" class="form-control" placeholder="Masukkan Mata Kuliah " value="<?= $value['mata_kuliah'] ?>"
-                            required>
+                        <select name="mata_kuliah" class="form-control" id="mata_kuliah">
+                                <option>Pilih</option>
+                                <option value="Pemrograman">Pemrograman</option>
+                                <option value="MPSI">MPSI</option>
+                                <option value="Kalkulus">Kalkulus</option>
+                                <option value="Basis Data"> Basis Data</option>
+                            </select>
                     </div>
                     <div class="form-group">
                         <label for="email">Email</label>
